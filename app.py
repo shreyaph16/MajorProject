@@ -23,6 +23,8 @@ st.set_page_config(
 )
 
 # ── GLOBAL CSS ────────────────────────────────────────────────────────────────
+
+st.sidebar.markdown("")  # force sidebar visible
 st.markdown("""
 <style>
 /* Import fonts */
